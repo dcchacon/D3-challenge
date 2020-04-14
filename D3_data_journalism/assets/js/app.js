@@ -95,7 +95,7 @@ function renderAxes(newXScale, xAxis) {
   }
   
   // Retrieve data from the CSV file and execute everything below
-  d3.csv("../data/data.csv").then(function(Data, err) {
+  d3.csv("assets/data/data.csv").then(function(Data, err) {
     if (err) throw err;
   
     // parse data
